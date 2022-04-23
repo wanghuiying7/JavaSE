@@ -6,8 +6,16 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/*
+举例:
+    Jack向Rose转账1000元, 这是逻辑上的一组操作
+    Jack - 1000         逻辑单元1
+    Rose + 1000         逻辑单元2
+    两个逻辑单元要么全部成功,要么全部失败
+ */
+
 public class Demo02 {
-    public static  void main(String[] args) {
+    public static void main(String[] args) {
         Connection conn = null;
         Statement stat = null;
 
@@ -24,21 +32,25 @@ public class Demo02 {
             // 3.2执行sql语句
             int line_num1 = stat.executeUpdate(sql1);
             int line_num2 = stat.executeUpdate(sql2);
-            if(line_num1+line_num2==2){
+            //3.3.操作结果集
+            if (line_num1 + line_num2 == 2) {
                 System.out.println("转账成功");
+                //3.4.提交事务
+                // 如果两条sql语句都正常修改成功则提交
                 conn.commit();
             }
-        }
-        catch (Exception e){
+        } catch (Exception e) {
+            //4.如果提交有异常,则回滚
             System.out.println("转账失败");
-            try{
+            try {
                 conn.rollback();
-            }catch (SQLException throwables){
+            } catch (SQLException throwables) {
                 throwables.printStackTrace();
             }
 
-        }finally{
-            JDBCUtils.release(null,stat,conn);
+        } finally {
+            //5.释放资源
+            JDBCUtils.release(null, stat, conn);
         }
     }
 }

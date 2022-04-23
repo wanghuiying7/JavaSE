@@ -3,10 +3,12 @@ package a_io;
 import java.io.Serializable;
 
 public class Student implements Serializable {
-//    public static final long Serializable
+    //序列化版本号
+    public static final long serialVersionUID = 2L;
 
     private String name;
     private int age;
+    private transient String gender; // 该属性不会参加序列化和反序列化
 
     public Student() {
     }

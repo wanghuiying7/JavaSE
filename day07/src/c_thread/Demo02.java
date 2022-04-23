@@ -11,8 +11,11 @@ package c_thread;
 
 public class Demo02 {
     public static void main(String[] args) {
+        // 4.在测试类中创建线程对象
         MyThread myThread = new MyThread();
+        // 5.开启线程
         myThread.start();
+
         // 在主线程中书写一个循环
         for (int i = 0; i < 100; i++) {
             System.out.println("main..." + i);

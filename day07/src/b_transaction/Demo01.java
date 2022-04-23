@@ -14,6 +14,18 @@ package b_transaction;
         虚读/幻读：指的是一个事务读取到了另一个事务已经提交（insert）的数据，导致一个事务中多次查询结果不一致
 
     考虑隔离性的时候，也要考虑隔离级别：
+        read uncommitted
+        read committed
+        repeatable read
+        serializable
+        隔离性: read uncommitted < read committed < repeatable read < serializable
+        安全性: read uncommitted < read committed < repeatable read < serializable
+        // 一般情况下,方案不会选择效率最高的,也不会选择安全性最高的,而是折中方案
+        效率: read uncommitted > read committed > repeatable read > serializable
+
+    数据库中默认的隔离级别:
+        Mysql : repeatable read
+        Oracle: read committed  (更适合承担大型的数据管理任务)
 
 
 
