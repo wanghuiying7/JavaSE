@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c9869ef-29b0-413b-b0b2-b97e7ad30535" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/die_lock_08/ThreadDieLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_01/PrimeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_01/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_02/PrimeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_02/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_03/PrimeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_03/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_04/PrimeRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_04/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_05/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_09/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_10/ThreadPriority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/thread_10/ThreadPriorityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/tickets_06/TicketsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/tickets_06/TicketsRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/tickets_07/TicketsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day08/src/cn/itcast/tickets_07/TicketsRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/src/main/java/cn/itcast/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/src/main/java/cn/itcast/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/src/test/java/cn/itcast/dao/ProductDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day09/src/test/java/cn/itcast/pojo/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HdfsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/HdfsDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_jdbc/src/main/java/com/itheima/jdbc/JdbcDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_jdbc/src/main/java/com/itheima/jdbc/JdbcDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_jdbc/src/main/resources/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/java/com/itheima/javasort/SortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/java/com/itheima/javasort/SortStuDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/java/com/itheima/javasort/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/java/com/itheima/par/MyPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/java/com/itheima/par/PartitionerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/java/com/itheima/par/PartitionerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/java/com/itheima/par/PartitionerReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/java/com/itheima/wc/WordCountMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/java/com/itheima/wc/WordCountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/java/com/itheima/wc/WordCountReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/target/classes/com/itheima/wc/WordCountMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day11_mr/target/classes/com/itheima/wc/WordCountMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_project/day02_login/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_project/day02_shop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven_project/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="28KQRcVaD7MCAABErWqOKgWe52B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day09" />
+  </component>
+  <component name="RunManager" selected="JUnit.HdfsDemo.show2">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsDemo.getFileSystem1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day10_hdfs" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HdfsDemo" />
+      <option name="METHOD_NAME" value="getFileSystem1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsDemo.getFileSystem2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day10_hdfs" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HdfsDemo" />
+      <option name="METHOD_NAME" value="getFileSystem2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsDemo.show1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day10_hdfs" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HdfsDemo" />
+      <option name="METHOD_NAME" value="show1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HdfsDemo.show2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day10_hdfs" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HdfsDemo" />
+      <option name="METHOD_NAME" value="show2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HdfsDemo.show2" />
+        <item itemvalue="JUnit.HdfsDemo.show1" />
+        <item itemvalue="JUnit.HdfsDemo.getFileSystem1" />
+        <item itemvalue="JUnit.HdfsDemo.getFileSystem2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c9869ef-29b0-413b-b0b2-b97e7ad30535" name="Default Changelist" comment="" />
+      <created>1650962794130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650962794130</updated>
+      <workItem from="1650962795607" duration="2054000" />
+      <workItem from="1651114114126" duration="1148000" />
+      <workItem from="1651149758095" duration="4668000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
